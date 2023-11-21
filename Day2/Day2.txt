@@ -1,0 +1,34 @@
+1. OneHot & Scaling
+
+OneHot Encoding
+Removed sub_area
+MinMax Scaling
+
+2. OneHot & Normalization
+
+OneHot Encoding
+Removed sub_area
+Log Normalization
+
+3. Label Encoding & Best Of (Scaling/Normalization)
+
+OneHot Encoding
+MinMax Scaling / Normalization
+
+4. PCA
+
+5. Best of Top + Feature Importance
+
+6. Best of Top + Feature Selection
+
+7. Best of Top + Backward Selection
+
+8. Best of Top + p-Value Selection
+
+9. Best of Top + Variance Based Selection
+
+10. Best Of Top + Subjective Opinion
+
+To Try Jab Time Ho
+
+Scaling + Normalization
