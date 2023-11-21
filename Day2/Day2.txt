@@ -17,6 +17,9 @@ Removed sub_area
 
 4. PCA
 
+OneHot Encoding
+Removed sub_area
+
 5. Best of Top + Feature Importance
 
 6. Best of Top + Feature Selection
