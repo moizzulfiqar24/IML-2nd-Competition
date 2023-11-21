@@ -44,6 +44,11 @@ Linear Regression
 
 8. Best of Top + p-Value Selection
 
+OneHot Encoding
+Removed sub_area
+Feature Selection Based On p-Value 
+Linear Regression
+
 9. Best of Top + Variance Based Selection
 
 10. Best Of Top + Subjective Opinion
