@@ -1,7 +1,9 @@
 Simple Se Yeh Aya Hai
 
+OneHot Encoding
 Removed sub_area
 Linear Regression
+
 Accuracy = 13279234.85
 
 1. OneHot & Scaling
@@ -28,7 +30,15 @@ Removed sub_area
 
 5. Best of Top + Feature Importance
 
+OneHot Encoding
+Removed sub_area
+Linear Regression
+
 6. Best of Top + Feature Selection
+
+OneHot Encoding
+Forward Feature Selection (5 features)
+Linear Regression
 
 7. Best of Top + Backward Selection
 
