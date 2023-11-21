@@ -12,8 +12,8 @@ Log Normalization
 
 3. Label Encoding & Best Of (Scaling/Normalization)
 
-OneHot Encoding
-MinMax Scaling / Normalization
+Label Encoding
+Removed sub_area
 
 4. PCA
 
