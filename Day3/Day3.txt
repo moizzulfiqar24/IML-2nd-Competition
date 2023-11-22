@@ -49,7 +49,8 @@ Linear Regression
 
 OneHot Encoding
 Removed sub_area
-Feature Selection Based On p-Value 
+p-Value Based Selection
+Polynomial With Interaction
 Linear Regression
 
 9. Best of Top + Variance Based Selection
