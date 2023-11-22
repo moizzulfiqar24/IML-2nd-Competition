@@ -1,0 +1,141 @@
+full_sq: total area in square meters, including loggias, balconies and other non-residential areas
+life_sq: living area in square meters, excluding loggias, balconies and other non-residential areas
+floor: for apartments, floor of the building
+max_floor: number of floors in the building
+material: wall material
+build_year: year built
+num_room: number of living rooms
+kitch_sq: kitchen area
+state: apartment condition
+sub_area: name of the district
+full_all: subarea population
+male_f, female_f: subarea population by gender
+young_*: population younger than working age
+work_*: working-age population
+ekder_*: retirement-age population
+n_m_{all|male|female}: population between n and m years old
+build_count_*: buildings in the subarea by construction type or year
+cafe_count_d_price_p: number of cafes within d meters of the property that have an average bill under p RUB
+trc_: shopping malls
+prom_: industrial zones
+green_: green zones
+metro_: subway
+_avto_: distances by car
+mkad_: Moscow Circle Auto Road
+ttk_: Third Transport Ring
+sadovoe_: Garden Ring
+bulvar_ring_: Boulevard Ring
+kremlin_: City center
+zd_vokzaly_: Train station
+oil_chemistry_: Dirty industry
+ts_: Power plant
+gdp_quart: GDP
+gdp_quart_growth: Real GDP growth
+cpi: Inflation - Consumer Price Index Growth
+ppi: Inflation - Producer Price index Growth
+gdp_deflator: Inflation - GDP deflator
+usdrub: Ruble/USD exchange rate
+eurrub: Ruble/EUR exchange rate
+average_provision_of_build_contract: Provision by orders in Russia (for the developer)
+average_provision_of_build_contract_moscow: Provision by orders in Moscow (for the developer)
+rts: Index RTS / return
+micex: MICEX index / return
+micex_rgbi_tr: MICEX index for government bonds (MICEX RGBI TR) / yield
+micex_cbi_tr: MICEX Index corporate bonds (MICEX CBI TR) / yield
+deposits_value: Volume of household deposits
+deposits_growth: Volume growth of population's deposits
+deposits_rate: Average interest rate on deposits
+mortgage_value: Volume of mortgage loans
+mortgage_growth: Growth of mortgage lending
+mortgage_rate: Weighted average rate of mortgage loans
+grp: GRP of the subject of Russian Federation where Apartment is located
+grp_growth: Growth of gross regional product of the subject of the Russian Federation where Apartment is located
+income_per_cap: Average income per capita 
+real_dispos_income_per_cap_growth: Growth in real disposable income of Population
+salary: Average monthly salary
+salary_growth: Growth of nominal wages
+retail_trade_turnover_per_cap: Retail trade turnover per capita
+labor_force: Size of labor force
+unemployment: Unemployment rate
+employment: Employment rate
+share_own_revenues: The share of own revenues in the total consolidated budget revenues
+pop_natural_increase: Rate of natural increase / decrease in Population (1,000 persons)
+pop_migration: Migration increase (decrease) of population
+pop_total_inc: Total population growth
+childbirth: Childbirth
+mortality: Mortality
+housing_fund_sqm: Housing Fund (sqm)
+lodging_sqm_per_cap: Lodging (sqm / pax)
+water_pipes_share: Plumbing availability (pax)
+sewerage_share: Canalization availability
+gas_share: Gas (mains, liquefied) availability
+hot_water_share: Hot water availability
+electric_stove_share: Electric heating for the floor
+heating_share: Heating availability
+old_house_share: Proportion of old and dilapidated housing, percent
+rent_price_4+room_bus: rent price for 4-room apartment, business class
+rent_price_3room_bus: rent price for 3-room apartment, business class
+rent_price_2room_bus: rent price for 2-room apartment, business class
+rent_price_1room_bus: rent price for 1-room apartment, business class
+rent_price_3room_eco: rent price for 3-room apartment, econom class
+rent_price_2room_eco: rent price for 2-room apartment, econom class
+rent_price_1room_eco: rent price for 1-room apartment, econom class
+load_of_teachers_preschool_per_teacher: Load of teachers of preschool educational institutions (number of children per 100 teachers);
+child_on_acc_pre_school: Number of children waiting for the determination to pre-school educational institutions, for capacity of 100
+load_of_teachers_school_per_teacher: Load on teachers in high school (number of pupils in hugh school for 100 teachers)
+students_state_oneshift: Proportion of pupils in high schools with one shift, of the total number of pupils in high schools
+modern_education_share: Share of state (municipal) educational organizations, corresponding to modern requirements of education in the total number of high schools;
+old_education_build_share: The share of state (municipal) educational organizations, buildings are in disrepair and in need of major repairs of the total number.
+provision_doctors: Provision (relative number) of medical doctors in area
+provision_nurse: Provision of nursing staff
+load_on_doctors: The load on doctors (number of visits per physician)
+power_clinics: Capacity of outpatient clinics
+hospital_beds_available_per_cap: Availability of hospital beds per 100 000 persons
+hospital_bed_occupancy_per_year: Average occupancy rate of the hospital beds during a year
+provision_retail_space_sqm: Retail space
+provision_retail_space_modern_sqm: Provision of population with retail space of modern formats, square meter
+theaters_viewers_per_1000_cap: Number of theaters viewers per 1000 population
+bandwidth_sports: Capacity of sports facilities
+apartment_build: City residential apartment construction
+apartment_fund_sqm: City residential apartment fund 
+area_m:	Area mun. area, sq.m.
+raion_popul:	Number of municipality population. district
+university_top_20_raion:	Number of higher education institutions in the top ten ranking of the Federal rank
+office_raion:	Number of malls and shopping centres in district
+radiation_raion:	Presence of radioactive waste disposal
+railroad_terminal_raion:	Presence of the railroad terminal in district
+big_market_raion:	Presence of large grocery / wholesale markets
+nuclear_reactor_raion:	Presence of existing nuclear reactors
+detention_facility_raion:	Presence of detention centers, prisons
+build_count_block:	Share of block buildings
+build_count_wood:	Share of wood buildings
+build_count_frame:	Share of frame buildings
+build_count_brick:	Share of brick buildings
+build_count_monolith:	Share of monolith buildings
+build_count_panel:	Share of panel buildings
+build_count_foam:	Share of foam buildings
+build_count_slag:	Share of slag buildings
+build_count_mix:	Share of mixed buildings
+build_count_before_1920:	Share of before_1920 buildings
+build_count_1921-1945:	Share of 1921-1945 buildings
+build_count_1946-1970:	Share of 1946-1970 buildings
+build_count_1971-1995:	Share of 1971-1995 buildings
+build_count_after_1995:	Share of after_1995 buildings
+fitness_km:	Distance to fitness
+swim_pool_km:	Distance to swimming pool
+ice_rink_km:	Distance to ice palace
+stadium_km:	Distance to stadium
+basketball_km:	Distance to the basketball courts
+hospice_morgue_km:	Distance to hospice/morgue
+detention_facility_km:	Distance to detention facility
+public_healthcare_km:	Distance to public healthcare
+university_km:	Distance to universities
+workplaces_km:	Distance to workplaces
+shopping_centers_km:	Distance to shopping centers
+office_km:	Distance to business centers/ offices
+big_church_km:	Distance to large church
+church_synagogue_km:	Distance to Christian chirches and Synagogues
+mosque_km:	Distance to mosques
+theater_km:	Distance to theater
+museum_km:	Distance to museums
+cafe_avg_price_500:	Cafes and restaurant average bill in 500 meters zone
