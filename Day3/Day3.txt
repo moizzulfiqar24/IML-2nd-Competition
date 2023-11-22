@@ -33,6 +33,8 @@ PCA (n=7)
 
 OneHot Encoding
 Removed sub_area
+Feature Importance Based Selection
+Polynomial With Interaction
 Linear Regression
 
 6. Best of Top + Feature Selection
