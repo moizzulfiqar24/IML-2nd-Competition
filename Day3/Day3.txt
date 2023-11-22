@@ -55,6 +55,12 @@ Linear Regression
 
 9. Best of Top + Variance Based Selection
 
+OneHot Encoding
+Removed sub_area
+Variance Based Selection
+Polynomial With Interaction
+Linear Regression
+
 10. Best Of Top + Subjective Opinion
 
 To Try Jab Time Ho
