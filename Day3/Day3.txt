@@ -10,24 +10,40 @@ Accuracy = 13279234.85
 
 OneHot Encoding
 Removed sub_area
-MinMax Scaling
+Robust Scaling
+Forward Feature Selection (n=12)
+Polynomial With Interaction
+Linear Regression
 
-2. OneHot & Normalization
+2. OneHot & Normalization (Remaining)
 
 OneHot Encoding
 Removed sub_area
+Robust Scaling
 Log Normalization
+Forward Feature Selection (n=12)
+Polynomial With Interaction
+Linear Regression
+
 
 3. Label Encoding & Best Of (Scaling/Normalization)
 
 Label Encoding
 Removed sub_area
+Robust Scaling
+Forward Feature Selection (n=12)
+Polynomial With Interaction
+Linear Regression
 
 4. PCA
 
 OneHot Encoding
 Removed sub_area
-PCA (n=7)
+Robust Scaling
+Forward Feature Selection (n=12)
+PCA (n=8)
+Polynomial With Interaction
+Linear Regression
 
 5. Best of Top + Feature Importance
 
@@ -40,7 +56,9 @@ Linear Regression
 6. Best of Top + Feature Selection
 
 OneHot Encoding
-Forward Feature Selection (5 features)
+Removed sub_area
+Forward Feature Selection (n=12)
+Polynomial With Interaction
 Linear Regression
 
 7. Best of Top + Backward Selection
