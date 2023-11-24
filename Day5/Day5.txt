@@ -1,0 +1,85 @@
+Simple Se Yeh Aya Hai
+
+OneHot Encoding
+Removed sub_area
+Linear Regression
+
+Accuracy = 13279234.85
+
+1. OneHot & Scaling
+
+OneHot Encoding
+Standard Scaling
+Lasso Regression (a = 1, rs = 42)
+
+2. OneHot & Normalization
+
+OneHot Encoding
+Removed sub_area
+Robust Scaling
+Normalization
+Forward Feature Selection (n=16)
+Polynomial Without Interaction
+Linear Regression
+
+3. Label Encoding & Best Of (Scaling/Normalization)
+
+Label Encoding
+Removed sub_area
+Forward Feature Selection (n=16)
+Polynomial Without Interaction
+Linear Regression
+
+4. PCA
+
+OneHot Encoding
+Removed sub_area
+Robust Scaling
+Forward Feature Selection (n=16)
+PCA (n=12)
+Polynomial Without Interaction
+Linear Regression
+
+------------
+
+5. Best of Top + Feature Importance (IMP)
+
+OneHot Encoding
+Removed sub_area
+Feature Importance Based Selection
+Polynomial Without Interaction
+Linear Regression
+
+6. Best of Top + Feature Selection
+
+OneHot Encoding
+Removed sub_area
+Forward Feature Selection (n=16)
+Polynomial Without Interaction
+Linear Regression
+
+7. Best of Top + Backward Selection
+
+8. Best of Top + p-Value Selection
+
+OneHot Encoding
+Removed sub_area
+p-Value Based Selection
+Polynomial Without Interaction
+Linear Regression
+
+9. Best of Top + Variance Based Selection
+
+OneHot Encoding
+Removed sub_area
+Variance Based Selection
+Polynomial Without Interaction
+Linear Regression
+
+------------
+
+10. Best Of Top + Subjective Opinion
+
+To Try Jab Time Ho
+
+Scaling + Normalization
