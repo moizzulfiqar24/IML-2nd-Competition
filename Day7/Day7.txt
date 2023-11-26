@@ -1,0 +1,22 @@
+7.2
+
+Removed Object Dtypes
+StandardScaler
+Keras With Torch Backend
+1 Hidden Layer: Hidden Layer 1 with 140 neurons relu activation, Output linear
+Adam Optimizer
+Loss Calculation: Mean Squared Error
+EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
+batch_size=1800, epochs=100, early_stopping, dropout=0.3 (used in hidden layers only)
+
+7.3
+
+Removed Object Dtypes
+StandardScaler
+Keras With Torch Backend
+2 Hidden Layers: Hidden Layer 1 with 100 neurons relu activation, 
+Hidden Layer 2 with 70 neurons relu activation, Dropout 0.3, Output linear
+Optimizer: SGD(learning_rate=0.01, momentum=0.9)
+Loss Calculation: Mean Squared Error
+EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
+batch_size=1800, epochs=100, early_stopping
