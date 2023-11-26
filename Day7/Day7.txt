@@ -57,3 +57,30 @@ Optimizer: Adam(lr=0.01)
 Loss Calculation: Mean Squared Error
 EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
 batch_size=1800, epochs=100, early_stopping, dropout=0.3 (used in hidden layers only)
+
+7.7
+
+Label Encoding
+Converted All Columns To float32
+StandardScaler
+Keras With Torch Backend
+3 Hidden Layers: Hidden Layer 1 with 128 neurons relu activation L2 regularization, Hidden Layer 2 with 64 neurons relu activation L2 regularization, Hidden Layer 3 with 40 neurons relu activation L2 regularization
+Output linear
+Optimizer: Adam(lr=0.01)
+Loss Calculation: Mean Squared Error
+EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
+batch_size=1800, epochs=100, early_stopping, dropout=0.3 (used in hidden layers only)
+
+7.8
+
+Label Encoding
+Converted All Columns To float32
+log Normalization
+StandardScaler
+Keras With Torch Backend
+3 Hidden Layers: Hidden Layer 1 with 128 neurons relu activation L2 regularization, Hidden Layer 2 with 64 neurons relu activation L2 regularization, Hidden Layer 3 with 40 neurons relu activation L2 regularization
+Output linear
+Optimizer: Adam(lr=0.01)
+Loss Calculation: Mean Squared Error
+EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
+batch_size=1800, epochs=100, early_stopping, dropout=0.3 (used in hidden layers only)
