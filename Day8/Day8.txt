@@ -20,3 +20,56 @@ MLPRegressor(hidden_layer_sizes=(128,64,40), activation='relu', solver='adam', s
 3 Hidden Layers: Hidden Layer 1 with 128 neurons, Hidden Layer 2 with 64 neurons, Hidden Layer 3 with 40 neurons
 Optimizer: Adam
 batch_size=1800, epochs=100, early_stopping
+
+8.3
+
+Removed sub_area
+OneHot Encoding
+Converted All Columns To float32
+log Normalization
+StandardScaler
+MLPRegressor(hidden_layer_sizes=(128,64,40), activation='relu', solver='adam', shuffle=False, max_iter=100, batch_size=1800, early_stopping=True, verbose=True, random_state=42)
+3 Hidden Layers: Hidden Layer 1 with 300 neurons, Hidden Layer 2 with 210 neurons, Hidden Layer 3 with 150 neurons, Hidden Layer 4 with 60 neurons
+Optimizer: Adam
+batch_size=1800, epochs=100, early_stopping
+
+8.4
+
+Removed sub_area
+OneHot Encoding
+Converted All Columns To float32
+log Normalization
+StandardScaler
+PCA (n=200)
+MLPRegressor(hidden_layer_sizes=(128,64,40), activation='relu', solver='adam', shuffle=False, max_iter=100, batch_size=1800, early_stopping=True, verbose=True, random_state=42)
+4 Hidden Layers: Hidden Layer 1 with 300 neurons, Hidden Layer 2 with 210 neurons, Hidden Layer 3 with 150 neurons, Hidden Layer 4 with 60 neurons
+Optimizer: Adam
+batch_size=1800, epochs=100, early_stopping
+
+8.5
+
+Features Used = 287
+
+Removed sub_area
+OneHot Encoding
+Converted All Columns To float32
+log Normalization
+StandardScaler
+MLPRegressor(hidden_layer_sizes=(128,64,40), activation='relu', solver='adam', shuffle=False, max_iter=100, batch_size=1800, early_stopping=True, verbose=True, random_state=42)
+5 Hidden Layers: Hidden Layer 1 with 300 neurons, Hidden Layer 2 with 210 neurons, Hidden Layer 3 with 180 neurons, Hidden Layer 4 with 130 neurons, Hidden Layer 5 with 70 neurons
+Optimizer: Adam
+batch_size=1800, epochs=100, early_stopping
+
+8.6
+
+Features Used = 287
+
+Removed sub_area
+OneHot Encoding
+Converted All Columns To float32
+log Normalization
+StandardScaler
+MLPRegressor(hidden_layer_sizes=(300,210,180,70,10), activation='relu', solver='adam', shuffle=False, max_iter=100, batch_size=1800, early_stopping=True, verbose=True, random_state=42)
+5 Hidden Layers: Hidden Layer 1 with 300 neurons, Hidden Layer 2 with 210 neurons, Hidden Layer 3 with 180 neurons, Hidden Layer 4 with 70 neurons, Hidden Layer 5 with 10 neurons
+Optimizer: Adam
+batch_size=1800, epochs=100, early_stopping
