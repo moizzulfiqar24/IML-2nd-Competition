@@ -1,0 +1,185 @@
+10.1
+
+Features Used = 271
+
+Label Encoding
+Converted All Columns To float32
+log Normalization
+StandardScaler
+MLPRegressor
+4 Hidden Layers: Hidden Layer 1 with 300 neurons relu activation L2 regularization, 
+Hidden Layer 2 with 210 neurons relu activation L2 regularization, 
+Hidden Layer 3 with 150 neurons relu activation L2 regularization, 
+Hidden Layer 4 with 60 neurons relu activation L2 regularization
+Optimizer: lbfgs
+batch_size=1800, epochs=100, early_stopping
+
+10.2
+
+Features Used = 271
+
+Label Encoding
+Converted All Columns To float32
+log Normalization
+StandardScaler
+MLPRegressor
+4 Hidden Layers: Hidden Layer 1 with 300 neurons relu activation L2 regularization, 
+Hidden Layer 2 with 210 neurons relu activation L2 regularization, 
+Hidden Layer 3 with 150 neurons relu activation L2 regularization, 
+Hidden Layer 4 with 60 neurons relu activation L2 regularization
+Optimizer: adam
+batch_size=1800, epochs=100, early_stopping
+
+10.3
+
+Features Used = 271
+
+Label Encoding
+Converted All Columns To float32
+log Normalization
+StandardScaler
+MLPRegressor
+4 Hidden Layers: Hidden Layer 1 with 300 neurons relu activation L2 regularization, 
+Hidden Layer 2 with 210 neurons relu activation L2 regularization, 
+Hidden Layer 3 with 150 neurons relu activation L2 regularization, 
+Hidden Layer 4 with 60 neurons relu activation L2 regularization
+Optimizer: adam
+batch_size=1800, epochs=100, early_stopping
+
+10.4
+
+Bhai L2 ke value bhi change ki teh dekh lena ankhein khol ke
+
+Features Used = 271
+
+Label Encoding
+Converted All Columns To float32
+log Normalization
+StandardScaler
+Keras With Torch Backend
+5 Hidden Layers: Hidden Layer 1 with 330 neurons relu activation L2 regularization, 
+Hidden Layer 2 with 250 neurons relu activation L2 regularization, 
+Hidden Layer 3 with 170 neurons relu activation L2 regularization, 
+Hidden Layer 4 with 110 neurons relu activation L2 regularization, 
+Hidden Layer 5 with 80 neurons relu activation L2 regularization
+Output linear
+Optimizer: Adam(lr=0.01)
+Loss Calculation: Mean Squared Error
+EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
+batch_size=1800, epochs=100, early_stopping (patience 10), dropout=0.3, L2 Regularization
+
+10.5
+
+Features Used = 287
+
+Removed sub_area
+OneHot Encoding
+Converted All Columns To float32
+log Normalization
+StandardScaler
+Keras With Torch Backend
+5 Hidden Layers: Hidden Layer 1 with 330 neurons relu activation L2 regularization, 
+Hidden Layer 2 with 250 neurons relu activation L2 regularization, 
+Hidden Layer 3 with 170 neurons relu activation L2 regularization, 
+Hidden Layer 4 with 120 neurons relu activation L2 regularization, 
+Hidden Layer 5 with 90 neurons relu activation L2 regularization
+Output linear
+Optimizer: Adam(lr=0.01)
+Loss Calculation: Mean Squared Error
+EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
+batch_size=1800, epochs=100, early_stopping (patience 10), dropout=0.3, L2 Regularization
+
+10.6
+
+Features Used = 271
+
+Label Encoding
+Converted All Columns To float32
+log Normalization
+StandardScaler
+Keras With Torch Backend
+4 Hidden Layers: Hidden Layer 1 with 360 neurons sigmoid activation L2 regularization, 
+Hidden Layer 2 with 280 neurons sigmoid activation L2 regularization, 
+Hidden Layer 3 with 190 neurons sigmoid activation L2 regularization, 
+Hidden Layer 4 with 130 neurons sigmoid activation L2 regularization
+Output linear
+Optimizer: Adam(lr=0.01)
+Loss Calculation: Mean Squared Error
+EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
+batch_size=1800, epochs=100, early_stopping (patience 10), dropout=0.3, L2 Regularization
+
+10.7
+
+Features Used = 271
+
+Label Encoding
+Converted All Columns To float32
+log Normalization
+StandardScaler
+Keras With Torch Backend
+4 Hidden Layers: Hidden Layer 1 with 360 neurons tanh activation L2 regularization, 
+Hidden Layer 2 with 280 neurons tanh activation L2 regularization, 
+Hidden Layer 3 with 190 neurons tanh activation L2 regularization, 
+Hidden Layer 4 with 130 neurons tanh activation L2 regularization
+Output linear
+Optimizer: Adam(lr=0.01)
+Loss Calculation: Mean Squared Error
+EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
+batch_size=1800, epochs=100, early_stopping (patience 10), dropout=0.3, L2 Regularization
+
+10.8 (Best Score One)
+
+Features Used = 271
+
+Label Encoding
+Converted All Columns To float32
+log Normalization
+StandardScaler
+Keras With Torch Backend
+4 Hidden Layers: Hidden Layer 1 with 360 neurons elu activation L2 regularization, 
+Hidden Layer 2 with 280 neurons elu activation L2 regularization, 
+Hidden Layer 3 with 190 neurons elu activation L2 regularization, 
+Hidden Layer 4 with 130 neurons elu activation L2 regularization
+Output linear
+Optimizer: Adam(lr=0.01)
+Loss Calculation: Mean Squared Error
+EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
+batch_size=1800, epochs=100, early_stopping (patience 10), dropout=0.3, L2 Regularization
+
+10.9 (Even Better Best Score One)
+
+Features Used = 271
+
+Label Encoding
+Converted All Columns To float32
+log Normalization
+StandardScaler
+Keras With Torch Backend
+4 Hidden Layers: Hidden Layer 1 with 360 neurons selu activation L2 regularization, 
+Hidden Layer 2 with 280 neurons selu activation L2 regularization, 
+Hidden Layer 3 with 190 neurons selu activation L2 regularization, 
+Hidden Layer 4 with 130 neurons selu activation L2 regularization
+Output linear
+Optimizer: Adam(lr=0.01)
+Loss Calculation: Mean Squared Error
+EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
+batch_size=1800, epochs=100, early_stopping (patience 10), dropout=0.3, L2 Regularization
+
+10.10
+
+Features Used = 271
+
+Label Encoding
+Converted All Columns To float32
+log Normalization
+StandardScaler
+Keras With Torch Backend
+4 Hidden Layers: Hidden Layer 1 with 360 neurons relu activation L2 regularization, 
+Hidden Layer 2 with 280 neurons relu activation L2 regularization, 
+Hidden Layer 3 with 190 neurons relu activation L2 regularization, 
+Hidden Layer 4 with 130 neurons relu activation L2 regularization
+Output linear
+Optimizer: Adam(lr=0.01)
+Loss Calculation: Mean Squared Error
+EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
+batch_size=1800, epochs=100, early_stopping (patience 10), dropout=0.3, L2 Regularization
