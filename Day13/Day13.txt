@@ -19,3 +19,37 @@ Converted All Columns To float32
 log Normalization
 StandardScaler
 RandomForestRegressor(n_estimators=100, max_depth=10, random_state=42, bootstrap=True, verbose=2)
+
+13.3
+
+Features Used = 77
+
+Removed sub_area
+Label Encoding
+P-Value Based Feature Selection
+Converted All Columns To float32
+log Normalization
+StandardScaler
+RandomForestRegressor(n_estimators=100, max_depth=10, random_state=42, bootstrap=True, verbose=2)
+
+13.4
+
+Features Used = 20
+
+Removed sub_area
+Label Encoding
+Random Forest Feature Importance Based Feature Selection
+Converted All Columns To float32
+log Normalization
+StandardScaler
+RandomForestRegressor(n_estimators=100, max_depth=10, random_state=42, bootstrap=True, verbose=2)
+
+13.5
+
+Features Used = 10
+
+Removed sub_area
+Label Encoding
+PCA (n=10)
+StandardScaler
+RandomForestRegressor(n_estimators=100, max_depth=10, random_state=42, bootstrap=True, verbose=2)
