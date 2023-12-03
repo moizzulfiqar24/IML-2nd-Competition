@@ -1,0 +1,57 @@
+14.6
+
+Features Used = 14
+
+Removed sub_area
+OneHot Encoding
+Forward Feature Selection (n=14)
+Converted All Columns To float32
+log Normalization
+StandardScaler
+XGBRegressor(n_estimators=150, max_depth=10, random_state=42)
+
+14.7
+
+Features Used = 41
+
+Removed sub_area
+OneHot Encoding
+Variance Based Feature Selection
+Converted All Columns To float32
+log Normalization
+StandardScaler
+XGBRegressor(n_estimators=100, max_depth=10, random_state=42)
+
+14.8
+
+Features Used = 87
+
+Removed sub_area
+OneHot Encoding
+Converted All Columns To float32
+P-Value Based Feature Selection
+log Normalization
+StandardScaler
+XGBRegressor(n_estimators=100, max_depth=10, random_state=42)
+
+14.9
+
+Features Used = 20
+
+Removed sub_area
+OneHot Encoding
+XGBRegressor Feature Importance Based Feature Selection
+Converted All Columns To float32
+log Normalization
+StandardScaler
+XGBRegressor(n_estimators=100, max_depth=10, random_state=42)
+
+14.10
+
+Features Used = 10
+
+Removed sub_area
+OneHot Encoding
+PCA (n=10)
+StandardScaler
+XGBRegressor(n_estimators=100, max_depth=10, random_state=42)
