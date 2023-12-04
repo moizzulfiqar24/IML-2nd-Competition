@@ -1,0 +1,44 @@
+15.1
+
+Features Used = 14
+
+Label Encoding
+Forward Feature Selection (n=14)
+log Normalization
+StandardScaler
+CatBoostRegressor(iterations=1000, depth=10,learning_rate=0.1,  random_seed=42, loss_function=RMSE)
+
+15.2
+
+Features Used = 41
+
+Removed sub_area
+Label Encoding
+Variance Based Feature Selection
+log Normalization
+StandardScaler
+CatBoostRegressor(iterations=1000, depth=10,learning_rate=0.1,  random_seed=42, loss_function=RMSE)
+
+15.3
+
+Features Used = 77
+
+Removed sub_area
+Label Encoding
+P-Value Based Feature Selection
+log Normalization
+StandardScaler
+CatBoostRegressor(iterations=1000, depth=10,learning_rate=0.1,  random_seed=42, loss_function=RMSE)
+
+15.4
+
+Features Used = 20
+
+Removed sub_area
+Label Encoding
+CatBoostRegressor(iterations=1000, depth=10,learning_rate=0.1,  random_seed=42, loss_function=RMSE)
+CatBoostRegressor Feature Importance Based Feature Selection
+Converted All Columns To float32
+log Normalization
+StandardScaler
+CatBoostRegressor(iterations=1000, depth=10,learning_rate=0.1,  random_seed=42, loss_function=RMSE)
